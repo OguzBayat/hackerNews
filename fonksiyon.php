@@ -1,5 +1,4 @@
 <?php
-
 	function baglan($url){
 		$curl=curl_init();
 		curl_setopt($curl,CURLOPT_URL, $url);
